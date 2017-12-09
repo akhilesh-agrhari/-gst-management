@@ -8,7 +8,7 @@ public static void connect() throws Exception {
 	
 	Class.forName("com.mysql.jdbc.Driver"); 
 	 con=DriverManager.getConnection(  
-	"jdbc:mysql://project5th2.ckbg79tlq7jo.ap-south-1.rds.amazonaws.com","akhileshpro","9410948791");
+	"jdbc:mysql://your link","id","pass");
 	 stmt=con.createStatement(); 
 		stmt.executeQuery("use project5th2");
 	
